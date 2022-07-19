@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="style.css">
+        
+  <title>Simple Interest Calculator</title>
+</head>
+<body>
+ <div class="main">
+  <h2>Simple Interest Calculator</h2>
+ <table class="center">
+   <tr>
+     <td>Amount:</td><td><input type="text" name="a" id="first">
+   </td>
+  </tr>
+    <tr>
+     <td>Interest Rate</td><td><input onchange="SliderValue()" type="range" name="c" id="third" min="1" max="20" step="0.25" value="10.25"><span id="rate_val">10.25%</span>
+   </td>
+  </tr>
+   <tr>
+     <td>No. of Years</td><td><select name="b" id="second"><option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       </select>
+   </td>
+  </tr>
+   <tr>
+     <td><button id="button"onclick="simple_interest()">Compute Interest</button></td>
+   </tr>
+</table>
+ <span id="result">
+   </span>
+  <footer>
+    <br>
+    &#169;Everyone Can Get Rich <br> This Calculator belongs to Samir Sherpa
+  </footer>
+   </div>
+   <script src="script.js"></script>
+</body>

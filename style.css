@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+}
+.main{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  left: auto;
+  right: auto;
+  margin-top:200px;
+}
+
+#button {
+  margin: 10px;
+  border-radius: 1px;
+  background-color: light gray;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button:hover{
+  background-color: lightgreen;
+}
+
+h2{
+ color:grey;
+ font-family:verdana;
+}
+.main {
+  border-radius: 30px;
+  background-color: white;
+  color:black;
+  width: 400px;
+  padding: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-top:200px;
+}
+
+.highlight{
+  background-color: yellow;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
